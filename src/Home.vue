@@ -10,7 +10,7 @@
 
 <script>
 
-import Navbar from '@/components/navbar/Navbar'
+import Navbar from '@/navbar/Navbar'
 
 export default {
   name: 'Home',
@@ -30,7 +30,7 @@ export default {
 .content-wrapper {
   width: 100%;
   height: 100%;
-  padding-top: 50px;
+  padding-top: 80px;
   position: absolute;
 }
 

@@ -8,9 +8,11 @@
 import '@/styles/positioning.css'
 import '@/styles/background.css'
 import '@/styles/scrollbar.css'
+import '@/styles/animation.css'
 import '@/styles/column.css'
 import '@/styles/layers.css'
 import '@/styles/font.css'
+import '@/styles/icon.css'
 
 export default {
   name: 'App'

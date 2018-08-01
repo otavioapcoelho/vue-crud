@@ -5,14 +5,19 @@
 
       </div>
       <div class="list-wrapper">
-
+        <user-list/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import List from "./userlist/List"
+
 export default {
+  components: {
+    'user-list': List
+  }
 }
 </script>
 

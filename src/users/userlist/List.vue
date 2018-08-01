@@ -1,6 +1,6 @@
 <template>
   <div class="list-wrapper">
-    <div class="headers">
+    <div class="headers left-content">
       <div class="half-column"></div>
       <div class="double-column">NOME</div>
       <div class="double-half-column">CÓDIGO</div>
@@ -8,16 +8,21 @@
       <div class="double-column">ÁREA</div>
       <div class="half-column"></div>
     </div>
-    <div class="item" v-for="item in items">
-
+    <div class="item" v-for="item in 5">
+      <list-item/>
     </div>
   </div>
 </template>
 
 <script>
+import ListItem from "./ListItem"
+
 export default {
   name: 'UserList',
-  props: ['items']
+  props: ['items'],
+  components: {
+    'list-item': ListItem
+  }
 }
 </script>
 
@@ -34,7 +39,7 @@ export default {
 
 .item {
   width: 100%;
-  height: 70px;
+  display: block;
 }
 
 </style>
